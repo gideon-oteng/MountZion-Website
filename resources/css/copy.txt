@@ -1,0 +1,38 @@
+<h2>Contact Us</h2>
+<div class="ceo-part">
+    <div class="ceo-profile-pic ">
+        <img src="resources/img/pic-9.jpg" alt="Afoko himself">
+        <h5>C.E.O</h5>
+        <p>Mr. Isaac Afoko Adidai</p>
+        <small>Aluminium glaze expert</small>
+    </div>
+    <div class="ceo-words">
+        <h3>meet the c.e.o</h3>
+        <p>Mr. Isaac Adidai Afoko is a graduate of the University of Ghana. Mr. Adidai has been in the
+            construction business for over a decade now. With over a decade of experience in the
+            construction
+            business, Mr. Adidai has enormous knowledge about about both intertior and exterior glass
+            decoration. Having worked on over 500 construction projects in Ghana, his aluminium glazed
+            works
+            standout exquisite designs all over the nation. Mr. Adidai has worked with countless estate
+            developers making him one of the most sought after aluminium glazed designer. Mr. Adidai is
+            ready to
+            work with you to give your project the best look at an affordable price.</p>
+    </div>
+    <div class="company-address thing">
+        <h3 class="our-head">Location</h3>
+        <p class="story">
+            Mount-Zion-Aluminium-Glaze head office is located in Kwabenya in the Greater Accra region and we
+            provided our services in every corner of Ghana
+        </p>
+        <h3>Contact Us</h3>
+        <address>
+            <a href="tel:+233244633787"><i class="fas fa-phone-alt"></i>0244633787</a><br>
+            <a href="mailto:mountzionaluminiumglaze@gmail.com"><i
+                    class="fas fa-at"></i>MountZionAluminiumGlaze@gmail.com</a>
+            <p><i class="fas fa-map-pin"></i>Ashongman Estate adjacent Melcom</p>
+            <p><i class="fas fa-globe-africa"></i>Box 121 atomic Kwabenya, Accra Ghana</p>
+        </address>
+
+    </div>
+</div>

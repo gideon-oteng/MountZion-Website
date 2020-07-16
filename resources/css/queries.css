@@ -1,0 +1,67 @@
+
+/* big tablets to 1200px: width smaller than the 1140px row */
+@media only screen and (max-width: 1110px){
+
+body { font-size: 20px;}
+
+
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{padding: 0 2%;}
+
+}
+
+
+/* small tablets to big tablets: from 767px to 1023px */
+@media only screen and (max-width: 890px){
+    body{ font-size: 18px;}
+    section{ padding: 35px 0;}
+    .contact-form{ width: 80%} 
+    
+}
+
+/* small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    body{ font-size: 18px;}
+    
+    .main-ser-cont{
+        flex-direction: column;
+        width: 90%;
+        padding: 3%;
+        margin: 0 3% 5% 5%;
+    
+    }
+    .ser-cont-1{
+        width: 90%;
+    }
+
+    .ser-cont-1 img{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .ceo-part{
+        flex-direction: column;
+        
+    }
+    .ceo-part div{
+        width: 90%;
+        margin: 0 0 5% 5%;
+     
+    }
+
+    .ceo-profile-pic img{
+        width: 60%;
+    }
+}
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+
+}
+
+
+
