@@ -9,7 +9,7 @@ $(document).ready(function () {
         }
 
     }, {
-        offset: '60px'
+        offset: '55px'
     })
 
     /*
