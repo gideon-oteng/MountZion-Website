@@ -34,6 +34,32 @@ body { font-size: 20px;}
 /* small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px){
     body{ font-size: 18px;}
+
+    .main_nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main_nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+     .main_nav li {display: block;} 
+    
+    .main_nav li a:link,
+    .main_nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+  
+    .sticky .main_nav { margin-top: 10px; }
+
+    .sticky .main_nav li a:link,
+    .sticky .main_nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
     
     .main-ser-cont{
         flex-direction: column;

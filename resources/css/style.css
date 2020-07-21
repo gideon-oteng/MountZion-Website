@@ -167,9 +167,9 @@ input[type=submit]{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
-    z-index: 9999;
-    
+    z-index: 9999; 
 }
+
 .main_nav, .main_nav2{
     float: right;
     list-style: none;
@@ -227,6 +227,21 @@ input[type=submit]{
 
 .sticky .logo-black{ display: block;}
 .sticky .logo{ display: none;}
+
+
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 
 
 /* --------- grid --------- */
@@ -502,9 +517,7 @@ input[type=checkbox]{
 .real-attributes img{
     height: 40px;
     width: auto;
-    
     padding-top: 5%;
-    
 }
 
 .location-container{
