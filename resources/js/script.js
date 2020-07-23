@@ -1,20 +1,18 @@
 $(document).ready(function () {
 
 
+    /* For the sticky navigation */
     $('.js--section-1').waypoint(function (direction) {
         if (direction == "down") {
-            $('nav').addClass('sticky')
+            $('nav').addClass('sticky');
         } else {
             $('nav').removeClass('sticky');
         }
-
     }, {
-        offset: '60px'
-    })
+        offset: '60px;'
+    });
 
 
-    /* Navigation scroll */
-    // Select all links with hashes
     $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
@@ -51,6 +49,29 @@ $(document).ready(function () {
             }
         });
 
+
+    /* Animations on scroll */
+    $('.js--wp-1').waypoint(function (direction) {
+        $('.js--wp-1').addClass('animate__fadeIn');
+    }, {
+        offset: '50%'
+    });
+
+    $('.js--wp-2').waypoint(function (direction) {
+        $('.js--wp-2').addClass('animate__fadeInUp');
+    }, {
+        offset: '50%'
+    });
+
+    $('.js--wp-3').waypoint(function (direction) {
+        $('.js--wp-3').addClass('animate__zoomIn');
+    }, {
+        offset: '50%'
+    });
+
+
+
+
     /* Mobile navigation */
     $('.js--nav-icon').click(function () {
         var nav = $('.js--main-nav');
@@ -61,7 +82,10 @@ $(document).ready(function () {
         if (icon.hasClass('fas fa-bars')) {
             icon.addClass('fas fa-times');
             icon.removeClass('fas fa-bars');
+        } else {
+            icon.addClass('fas fa-bars');
+            icon.removeClass('fas fa-times');
         }
     });
+});
 
-})

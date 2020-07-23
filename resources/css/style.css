@@ -130,6 +130,7 @@ input[type=submit]{
     border-radius: 200px;
     color: #fff;
     background-color: #f368e0;
+    border: 1px solid #f368e0;
 }
 
 .btn-1:hover,
@@ -139,9 +140,7 @@ input[type=submit]:active{
     color: #fff;
 }
 
-input[type=submit]{
-    border: 1px solid #555;
-}
+
 
 /* ------------ navbar --------------- */
 
@@ -359,7 +358,7 @@ cite img {
 /* --------- form section ------------ */
 
 .form{
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 .contact-form{
@@ -613,4 +612,24 @@ footer{
 
 .b-icon2:hover,
 .b-icon2:active{
-    color: #1877f2}
+    color: #3b5998}
+
+
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+    opacity: 1;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
