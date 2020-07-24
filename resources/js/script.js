@@ -70,8 +70,6 @@ $(document).ready(function () {
     });
 
 
-
-
     /* Mobile navigation */
     $('.js--nav-icon').click(function () {
         var nav = $('.js--main-nav');
@@ -87,5 +85,10 @@ $(document).ready(function () {
             icon.removeClass('fas fa-times');
         }
     });
+});
+
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
 });
 
