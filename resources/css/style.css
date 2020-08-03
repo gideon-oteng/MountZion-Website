@@ -421,7 +421,6 @@ input[type=checkbox]{
 .ser-cont-2 div{
     color: #e312c6;
     border: 2px solid #e312c6;
-    display: inline-block;
     border-radius: 50%;
     height: 55px;
     width: 55px;
