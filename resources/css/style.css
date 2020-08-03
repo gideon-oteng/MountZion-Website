@@ -128,9 +128,10 @@ input[type=submit]{
     font-weight: 400;
     text-decoration: none;
     border-radius: 200px;
+    box-shadow: 0 2px 80px rgba(0,0,0,.1);
     color: #fff;
     background-color: #f368e0;
-    border: 1px solid #f368e0;
+    
 }
 
 .btn-1:hover,

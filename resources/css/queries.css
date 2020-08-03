@@ -99,6 +99,10 @@ body { font-size: 20px;}
         height: 105%;
     }
 
+    .col-md-4{
+        margin: 10px 0;
+    }
+
 
 
 }
